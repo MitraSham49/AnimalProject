@@ -48,6 +48,8 @@ public class AnimalApp {
         print(h.eat());
         print(h.sleep());
         print(h.corn());
+        h.setName("Blue");
+
 
         SaberToothTiger g= new SaberToothTiger();
         print(g.eat());

@@ -15,10 +15,15 @@ public class Unicorn extends Animal{
     public String eat() {
         return "A unicorn  eats....";
     }
+
+
     public  String corn(){
         return"Have horn.....";
     }
 
-
-
+    @Override
+    public void setName(String name) {
+        super.setName(name);
+        System.out.println("My name is: "+ super.getName()+ " I am magical");
+    }
 }
