@@ -2,7 +2,7 @@ package com.company.demo;
 
 public class Bird  extends Animal{
     public  Bird(){
-        System.out.println("Abird is hatched");
+        System.out.println("A bird is hatched");
     }
 
     @Override

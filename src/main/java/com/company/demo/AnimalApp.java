@@ -28,6 +28,33 @@ public class AnimalApp {
        print(b.eat());
        print(b.sleep());
        print(b.fly());
+
+        Dog d= new Dog();
+        print(d.eat());
+        print(d.sleep());
+        print(d.huff());
+
+        Fish e= new Fish();
+        print(e.eat());
+        print(e.sleep());
+        print(e.swim());
+
+        Monkey f= new Monkey();
+        print(f.eat());
+        print(f.sleep());
+        print(f.clim());
+
+        Unicorn h= new Unicorn();
+        print(h.eat());
+        print(h.sleep());
+        print(h.corn());
+
+        SaberToothTiger g= new SaberToothTiger();
+        print(g.eat());
+        print(g.sleep());
+        print(g.tooth());
+
+
     }
     private  static  void print (String s){
         System.out.println(s);
